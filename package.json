@@ -1,0 +1,17 @@
+{
+  "name": "roulette-zksync",
+  "private": true,
+  "scripts": {
+    "build": "poi --prod",
+    "dev": "poi --serve",
+    "lint": "tslint --project ."
+  },
+  "devDependencies": {
+    "poi": "^12.4.2",
+    "typescript": "^3.2.1",
+    "@poi/plugin-typescript": "^12.0.1",
+    "@poi/plugin-pwa": "^12.0.2",
+    "workbox-window": "^4.3.1",
+    "@egoist/snackbar": "^1.2.2"
+  }
+}
